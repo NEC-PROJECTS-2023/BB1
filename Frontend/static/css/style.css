@@ -1,0 +1,75 @@
+    *{
+    margin: 3px;
+    padding: 1px;
+    }
+    body{
+    background-image: url("usd.jpg");
+    font-size: 16px;
+    font-family:  sans-serif;
+    }
+    .container{
+    width: 59%;
+    margin: 30px auto;
+    }
+    h3{
+        text-align:center;
+    }
+    .contact-box{
+    background: #fff;
+    display: flex;
+    }
+    .contact-left{
+    flex-basis: 84%;
+    padding: 9px 55px;
+    }
+    h1{
+    color:gold;
+    margin-bottom: 2px;
+    text-align:center;
+    }
+    .container p{
+    margin-bottom: 5px;
+    }
+    p{
+    font-size: 18px;
+    }
+    .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
+    .input-row .input-group{
+    flex-basis: 45%;
+    }
+    input{
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 0px;
+    }
+    label{
+    margin-bottom: 6px;
+    display: block;
+    font-size: 17px;
+    color: blue;
+    }
+    button{
+    background: red;
+    width: 100px;
+    border: solid silver;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+    }
+    .contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adult Income Analysis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+<div class="container">
+  <div class="contact-box">
+    <div class="contact-left">
+      <h1>Adult Income Analysis</h1>
+      <h3>Enter the required values for predicting the income</h3>
+      <form action='/predict' method="POST">
+        <div class="input-row">
+          <div class="input-group">
+            <label>Age</label>
+            <input type="number" name="age" placeholder="Enter the age" max="90" min="17"  required="required">
+          </div>
+          <div class="input-group">
+            <label>Workclass</label>
+            <input type="text" name="workclass" placeholder="Enter the workclass belong to"  required="required">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-group">
+            <label>Education Number</label>
+            <input type="number" name="citric_acid" placeholder="Enter the education number" max="16" min="1"  required="required">
+          </div>
+          <div class="input-group">
+            <label>Occupation</label>
+            <input type="text" name="occupation" placeholder="Enter the occupation" required="required">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-group">
+            <label>Relationship</label>
+            <input type="text" name="relationship" placeholder="Enter the relationship"  required="required">
+          </div>
+          <div class="input-group">
+            <label>Race</label>
+            <input type="text" name="Race" placeholder="Enter Race" required="required">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-group">
+            <label>Gender</label>
+            <input type="text" name="gender" placeholder="Enter gender" required="required">
+          </div>
+          <div class="input-group">
+            <label>Capital-Gain</label>
+            <input type="number" name="cap-gain" placeholder="Enter the capital-gain" max="200000" min="0"  required="required">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-group">
+            <label>Capital-Loss</label>
+            <input type="number" name="cap-loss" placeholder="Enter the capital loss" max="200000" min="0" required="required">
+          </div>
+          <div class="input-group">
+            <label>Native-Country</label>
+            <input type="text" name="na-country" placeholder="Enter the native country" required="required">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-group">
+            <label>Hours worked</label>
+            <input type="text" name="hours-worked" placeholder="Enter the hours worked bins <40 40-60 & >60"  required="required">
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>

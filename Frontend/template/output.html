@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/submit.css') }}">
+</head>
+<body>
+<h1>The income of the individual is</h1>
+{% if (result == 1) %}
+<img src="{{url_for('static', filename='css/$50000.jpg')}}" class="center">
+{% else %}
+<img src="{{url_for('static', filename='css/Lessthan.gif')}}" class="center">
+{% endif %}
+<button onclick="location.href = 'http://localhost:5000';">Predict more</button>
+</body>
+</html>
