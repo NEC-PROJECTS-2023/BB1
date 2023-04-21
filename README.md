@@ -1,11 +1,13 @@
 # BB1
 Adult Income Analysis
-###Team members
+**Team members
 1. T. Selvaraj
 2. K. Raja
 3. V. Pranav
 4. K. Bhuvana Chandra
-###Introduction
+
+**Introduction
+
 Adult income analysis involves exploring the relationship between various demographic and socio-economic factors and an individual's income level. The "Adult" dataset is used for adult income analysis can be found in the UCI Machine Learning Repository [6]. The dataset contains information on people's ages, education levels, marital status, occupations, races, genders, and other characteristics. The primary objective variable is to determine whether a person makes more than $50,000 or less than $50,000 annually.
 
 The dataset can be used to investigate and examine the relationship between these variables and a person's income level. This can assist researchers, policymakers, and businesses in better understanding the factors that influence income levels and developing strategies to improve them.
